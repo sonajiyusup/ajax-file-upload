@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Mini Ajax File Upload Form</title>
+		<link href="http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700" rel='stylesheet' />
+		<link href="assets/css/style.css" rel="stylesheet" />
+	</head>
+	<body>
+	<div align="center">
+	<h1>Virtual Hosts Created Successfully!</h1>
+	<p>
+		<b>xVPS</b> has successfully created a virtual host in your server.
+		<br>We can code it better! Join at <a href='https://github.com/sonajiyusup/xvps' target='_blank'>GitHub</a>
+		<br>Created by <a href='https://facebook.com/sonaji.hnc' target='_blank'>Sonaji</a>
+		<br>Mini Ajax File Upload Form - fork from <a href="https://github.com/furic/Mini-AJAX-File-Upload-Form">furic</a></p><br><br><br>
+	<h3>You can upload your webscript here</h3>
+	<p>Allowed extention : zip, png, jpg, gif</p>
+	</div>
+		<form id="upload" method="post" action="upload.php" enctype="multipart/form-data">
+			<div id="note"></div>
+			<div id="drop">
+				Drop Here
+
+				<a>Browse</a>
+				<input type="file" name="upl" multiple />
+			</div>
+			<ul>
+				<!-- The file uploads will be shown here -->
+			</ul>
+		</form>
+		<footer>
+        </footer>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="assets/js/jquery.knob.js"></script>
+		<script src="assets/js/jquery.ui.widget.js"></script>
+		<script src="assets/js/jquery.iframe-transport.js"></script>
+		<script src="assets/js/jquery.fileupload.js"></script>
+		<script src="assets/js/script.js"></script>
+	</body>
+</html>
